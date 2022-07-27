@@ -2,7 +2,9 @@ import axios from 'axios';
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
 
 type Stores = {
-  meta: {};
+  meta: {
+    total: string;
+  };
   data: [];
   included: Array<{
     type: string;
@@ -24,7 +26,9 @@ type InitialState = {
 const initialState: InitialState = {
   loading: false,
   stores: {
-    meta: {},
+    meta: {
+      total: '',
+    },
     data: [],
     included: [],
   },
