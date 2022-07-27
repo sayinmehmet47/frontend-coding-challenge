@@ -91,6 +91,14 @@ const StoreLink = styled.p`
   ${mobile({ fontSize: '14px' })}
 `;
 
+const Link = styled.a`
+  text-decoration: none;
+  color: #000;
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 const Footer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -186,7 +194,7 @@ export default function Card(props: Props) {
         <FooterLeft>
           <Date>{props.date}</Date>
           <StoreLink>
-            <Span>-</Span> {website}
+            <Span>-</Span> <Link href={website}>{website}</Link>
           </StoreLink>
         </FooterLeft>
         <CountryFlag src={props.flagLink} />
