@@ -9,13 +9,13 @@
 <h1 align="center">Frontend Coding Challenge</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/sayinmehmet47/frontend-coding-challenge?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/sayinmehmet47/frontend-coding-challenge?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/sayinmehmet47/frontend-coding-challenge?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/sayinmehmet47/frontend-coding-challenge?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8" /> -->
 
@@ -39,14 +39,14 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/sayinmehme47" target="_blank">Author</a>
 </p>
 
 <br>
 
 ## :dart: About
 
-Describe your project
+THis app lists the best-selling books for each book store.This repo contains a JSON:API based application which provides the data for the book stores. This API can be found in the `book-store-api`
 
 ## :sparkles: Features
 
@@ -58,11 +58,11 @@ Describe your project
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Redux-Toolkit](https://redux-toolkit.js.org/)
+- [Styled-components](https://styled-components.com/)
+- [React-Icon](https://react-icons.github.io/react-icons/)
 
 ## :white_check_mark: Requirements
 
@@ -72,7 +72,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{sayinmehme47}}/frontend-coding-challenge
+$ git clone https://github.com/sayinmehme47/frontend-coding-challenge
 
 # Access
 $ cd frontend-coding-challenge
@@ -82,26 +82,24 @@ $ cd frontend-coding-challenge
 cd book-store-api
 yarn install
 yarn start
+# The server will initialize in the <http://localhost:4000>
+
 
 # Starting the frontend
 cd my-app
 yarn install
 yarn start
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
 # The server will initialize in the <http://localhost:3000>
+
+
+
 ```
 
 ## :memo: License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{Mehmet}}</a>
+Made with :heart: by <a href="https://github.com/sayinmehme47" target="_blank">Mehmet Sayin</a>
 
 &#xa0;
 
