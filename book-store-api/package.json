@@ -1,0 +1,15 @@
+{
+  "name": "frontend-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fake-json-api-server": "^1.7.0"
+  }
+}
