@@ -52,7 +52,7 @@ THis app lists the best-selling books for each book store.This repo contains a J
 
 :heavy_check_mark: Circle with the Book store image.
 
-:heavy_check_mark: List with a maximum of 2 books ordered by the number of copies sold. In case there are no books, please display a "No data available" message.
+:heavy_check_mark: List with a maximum of 2 books ordered by the number of copies sold. In case there are no books, display a "No data available" message.
 
 :heavy_check_mark: Book store rating represented in stars. The interaction with the rating should update its correspondent entry in the API.
 
@@ -80,8 +80,6 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 # Clone this project
 $ git clone https://github.com/sayinmehme47/frontend-coding-challenge
 
-# Access
-$ cd frontend-coding-challenge
 
 
 # Starting the backend
