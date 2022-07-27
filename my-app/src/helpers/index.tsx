@@ -9,28 +9,26 @@ function Books(
   cardBooks: {
     data: any;
   },
-  authors: any,
-  books: any
+  authors: { id: string; name: string }[],
+  books: {
+    copiesSold: number;
+    authorId: string;
+    id: string;
+    name: string;
+  }[]
 ) {
-  const booksUpdated = books.map(
-    (book: {
-      copiesSold: number;
-      authorId: string;
-      id: string;
-      name: string;
-    }) => {
-      return {
-        id: book.id,
-        name: book.name,
-        copiesSold: book.copiesSold,
-        author: authors
-          .map((item: { id: any; name: any }) =>
-            item.id === book.authorId ? item.name : ''
-          )
-          .filter((e: string) => e !== '')[0],
-      };
-    }
-  );
+  const booksUpdated = books.map((book) => {
+    return {
+      id: book.id,
+      name: book.name,
+      copiesSold: book.copiesSold,
+      author: authors
+        .map((item: { id: any; name: any }) =>
+          item.id === book.authorId ? item.name : ''
+        )
+        .filter((e: string) => e !== '')[0],
+    };
+  });
 
   //update card books with booksUpdated data
 
