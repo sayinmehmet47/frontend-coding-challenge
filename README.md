@@ -51,9 +51,13 @@ THis app lists the best-selling books for each book store.This repo contains a J
 ## :sparkles: Features
 
 :heavy_check_mark: Circle with the Book store image.
+
 :heavy_check_mark: List with a maximum of 2 books ordered by the number of copies sold. In case there are no books, please display a "No data available" message.
+
 :heavy_check_mark: Book store rating represented in stars. The interaction with the rating should update its correspondent entry in the API.
+
 :heavy_check_mark:Book store establishment date in DD.MM.YYYY format and website link. The API will return the date in ISO 8601 format.
+
 :heavy_check_mark:Book store flag taken from https://countryflagsapi.com/.
 
 ## :rocket: Technologies
