@@ -46,7 +46,7 @@
 
 ## :dart: About
 
-THis app lists the best-selling books for each book store.This repo contains a JSON:API based application which provides the data for the book stores. This API can be found in the `book-store-api`
+This app lists the best-selling books for each book store.This repo contains a JSON:API based application which provides the data for the book stores. This API can be found in the `book-store-api`
 
 ## :sparkles: Features
 
