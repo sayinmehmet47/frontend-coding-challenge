@@ -1,79 +1,108 @@
-## Squirro Frontend Coding Challenge
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="Frontend Coding Challenge" />
 
-Welcome to the Squirro coding challenge! Your task is to create an APP that lists the best-selling books for each book store.
+&#xa0;
 
-This repo contains a JSON:API based application which provides the data for the book stores. This API can be found in the `book-store-api` folder. Within the section below you will find more information on how to run/use `book-store-api`.
+  <!-- <a href="https://frontendcodingchallenge.netlify.app">Demo</a> -->
+</div>
 
-Your goal is to present the data (that you receive from the API) as shown in the wireframe:
+<h1 align="center">Frontend Coding Challenge</h1>
 
-![Screenshot](wireframe.png)
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8">
 
-#### Each circle marker represents a specific task:
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8">
 
-1. Circle with the Book store image.
-2. List with a maximum of 2 books ordered by the number of copies sold. In case there are no books, please display a "No data available" message.
-3. Book store rating represented in stars. The interaction with the rating should update its correspondent entry in the API.
-4. Book store establishment date in DD.MM.YYYY format and website link. The API will return the date in ISO 8601 format.
-5. Book store country flag image. The Book store API will only return a 2-letter ISO 3166-1 country code. Please use https://restcountries.eu/ API to get the flag image for each country code to display. In the event of unavailability of this API, please use any other equivalent API of your choice.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8">
 
-**You should follow the wireframe positioning of elements, but you can make it a bit prettier ;)**
+  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8">
 
-### Book Store API
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8" /> -->
 
-JSON:API is a specification on how a client should perform requests that fetch or modify resources, and how a server should respond to those requests.
-You can find the JSON:API documentation on this link https://jsonapi.org/format/ but we will explain to you some of the basics here to make it easier for you.
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8" /> -->
 
-The Book store API contains the `stores`, `books`, `countries`, and `authors` resources. Each of the resources can have an attributes object and a relationship object describing relationships between the resource and other resources.
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/frontend-coding-challenge?color=56BEB8" /> -->
+</p>
 
-**Breakdown of resources and their relationships:**
+<!-- Status -->
 
-- Stores
-  - Attributes:
-    - `name`
-    - `website`
-    - `rating`
-    - `image`
-    - `establishmentDate`
-  - Relationships
-    - `books`
-    - `countries`
-- Books
-  - Attributes:
-    - `name`
-    - `copiesSold`
-  - Relationships
-    - `authors`
-- Countries
-  - Attributes:
-    - `code`
-- Authors
-  - Attributes:
-    - `fullName`
+<!-- <h4 align="center">
+	🚧  Frontend Coding Challenge 🚀 Under construction...  🚧
+</h4>
 
-The API endpoint that you will need for most of the tasks is: `http://localhost:3000/stores`. This endpoint will return all store resources and related resources within `included` array.
-If you need any other endpoint, check the JSON:API specification.
+<hr> -->
 
-If you have any issues with POST request returning errors - please read the first few sections of JSON:API documentation carefully.
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+</p>
 
-#### Running API:
+<br>
 
-- Clone this repo locally
-- `cd` inside `book-store-api` folder and run `npm install`
-- Serve it on the port 3000 by running `npm run start`
+## :dart: About
 
-#### Commiting:
+Describe your project
 
-- Please do not open pull requests against our repository!
-- Instead, create your repository and send that over
+## :sparkles: Features
 
-#### Rules
+:heavy_check_mark: Feature 1;\
+:heavy_check_mark: Feature 2;\
+:heavy_check_mark: Feature 3;
 
-- You can choose between Backbone and React as your main framework.
-- Don't use JSON:API response normalizer libraries, do it yourself.
-- The project startup procedure must be documented.
-- Javascript should be written in ES6 or above (TypeScript is welcomed).
-- GIT history must be clean.
-- Application presentation must be done by responsive web design principles.
-- Write CSS from scratch, please do not use Bootstrap, Material UI, and similar.
+## :rocket: Technologies
 
-#### Happy coding and thank you for applying to Squirro!
+The following tools were used in this project:
+
+- [Expo](https://expo.io/)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## :white_check_mark: Requirements
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+## :checkered_flag: Starting
+
+```bash
+# Clone this project
+$ git clone https://github.com/{{sayinmehme47}}/frontend-coding-challenge
+
+# Access
+$ cd frontend-coding-challenge
+
+
+# Starting the backend
+cd book-store-api
+yarn install
+yarn start
+
+# Starting the frontend
+cd my-app
+yarn install
+yarn start
+
+# Install dependencies
+$ yarn
+
+# Run the project
+$ yarn start
+
+# The server will initialize in the <http://localhost:3000>
+```
+
+## :memo: License
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{Mehmet}}</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
